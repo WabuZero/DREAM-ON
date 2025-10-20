@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87873c8f041442043ba125634bd75648
+timeCreated: 1482690011
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 80769
+  packageName: Animated Pond Fish
+  packageVersion: 1.1
+  assetPath: Assets/Fish Pack SuburbiaGames/Models/fishController.controller
+  uploadId: 276864
