@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8754108898566483036}
-  - component: {fileID: 4675050749930055552}
+  - component: {fileID: 1785189508151116897}
   m_Layer: 0
   m_Name: ProjectorBlood
   m_TagString: Untagged
@@ -64,22 +64,26 @@ Transform:
   m_Father: {fileID: 911800292171939246}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!119 &4675050749930055552
-Projector:
+--- !u!114 &1785189508151116897
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3198263788911366853}
   m_Enabled: 1
-  serializedVersion: 2
-  m_NearClipPlane: 0.01
-  m_FarClipPlane: 0.5
-  m_FieldOfView: 50
-  m_AspectRatio: 1
-  m_Orthographic: 0
-  m_OrthographicSize: 0.5
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d329cd448af9cb44e87f625ebc00151c, type: 2}
-  m_IgnoreLayers:
-    serializedVersion: 2
-    m_Bits: 311
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 0
+  m_EndAngleFade: 163.76434
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.25}
+  m_Size: {x: 0.3, y: 0.3, z: 0.5}
+  m_FadeFactor: 1
